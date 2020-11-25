@@ -6,11 +6,11 @@ public class Main {
         words.add("Караганда");
         words.add("Воронеж");
         words.add("Киев");
-        words.add("Караганда");
+        words.add("Жданов");
         words.add("Жданов");
         words.add("Витебск");
         words.add("Архангельск");
-        System.out.println(WordsFunction.getWords(words, words.size()).toString());
+        System.out.println(WordsFunction.getWords(words));
     }
 }
 
